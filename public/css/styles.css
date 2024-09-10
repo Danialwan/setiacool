@@ -1,0 +1,151 @@
+main {
+    padding-top: 2%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 70;
+    width: 100vw;
+}
+
+.headerDesc {
+    width: 38vw;
+    text-align: center;
+}
+
+footer .content{
+    display: flex;
+    justify-content: center;
+    gap: 1vh;
+    padding: 5vh;
+}
+footer .content .contact{
+    /* background-color: aqua; */
+    width: 35%;
+}
+footer .content .contact .logo{
+    /* background-color: bisque; */
+    width: 100%;
+    height: 13vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .content .contact .deskripsi{
+    margin: 2vh 0;
+}
+footer .content .contact .contact{
+    display: flex;
+    width: 100%;
+    gap: 5vh;
+    margin: 2vh 0;
+}
+footer .content .mapContainer{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+footer .content .mapContainer .map{
+    background-color: black;
+    width: 90%;
+    height: 45vh;
+}
+footer .content .mapContainer .alamat{
+    width: 90%;
+    margin-top: 10px;
+}
+footer .copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    footer .content .mapContainer .map{
+        width: 100%;
+        height: 25vh;
+    }
+    footer .content{
+        flex-direction: column;
+        padding: 5vh;
+    }
+    footer .content .contact{
+        width: 100%;
+    }
+    footer .content .contact .contact{
+        width: 100%;
+    }
+    footer .content .mapContainer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+  }
+.whatsapp{
+    position: fixed;
+    bottom: 30;
+    right: 30;
+    width: 10vh;
+    height: 10vh;
+    background-color: #2ADB58;
+    z-index: 20;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.whatsapp:hover{
+    position: fixed;
+    bottom: 30;
+    right: 30;
+    width: 10vh;
+    height: 10vh;
+    background-color: #24ba4c;
+    z-index: 20;
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+#navbar-default ul li .active{
+    color: #1d4ed8;
+}
+
+@media screen and (max-width: 768px) {
+    footer .content .contact .logo{
+        /* background-color: bisque; */
+        width: 100%;
+        height: 8vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    footer .content .mapContainer .map{
+        width: 100%;
+        height: 25vh;
+    }
+    footer .content{
+        flex-direction: column;
+        padding: 5vh;
+    }
+    footer .content .contact{
+        width: 100%;
+    }
+    footer .content .contact .contact{
+        width: 100%;
+    }
+    footer .content .mapContainer{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .headerDesc{
+        width: 100vw;
+    }
+}

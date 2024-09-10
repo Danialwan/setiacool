@@ -1,0 +1,347 @@
+.containerBidang {
+    background-color: #086CB6;
+    width: 100vw;
+    padding: 5vw 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerBidang .containerCard .card {
+    background-color: white;
+    padding: 10%;
+    border-radius: 30px;
+    /* height: 45vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerBidang .containerCard .card:hover {
+    background-color: #c0e4ff;
+    padding: 10%;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBidang .containerCard .card .cardText {
+    margin-bottom: 1VW;
+}
+
+.containerBidang .containerCard .card .deskripsiBidang {
+    font-size: 16px;
+    color: #086CB6;
+}
+
+.containerBidang .containerCard .card .cardText {
+    background: -webkit-linear-gradient(90deg, rgba(236, 31, 37, 1) 0%, rgba(8, 108, 182, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.containerBidang .containerCard .card .iconBidang {
+    width: 10vw;
+    height: 10vw;
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: ; */
+}
+
+.containerKlien {
+    background-color: #ffffff;
+    width: 100vw;
+    padding: 5vw 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerKlien .logoKlien {
+    height: 3vw;
+    width: 3vw;
+    background-color: rgb(50, 50, 50);
+    border-radius: 1.5vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.containerGalery {
+    background-color: #086CB6;
+    width: 100vw;
+    padding: 5vw 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGrid {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: 216px ; */
+    grid-template-areas:
+        "galery1 galery1"
+        "galery2 galery3"
+    ;
+    /* margin: 12vh 10% 0% 10%; */
+    gap: 1vw;
+    /* background-color: #ffffff; */
+}
+
+.gridGalery1 {
+    grid-area: galery1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 216px;
+    grid-template-areas:
+        "Foto1 Foto2 Foto3";
+    /* margin: 12vh 10% 0% 10%; */
+    gap: 1vw;
+    /* background-color: #ffffff; */
+}
+
+.gridGalery2 {
+    grid-area: galery2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 216px 432px;
+    grid-template-areas:
+        "Foto4 Foto4"
+        "Foto5 Foto6";
+    /* margin: 12vh 10% 0% 10%; */
+    gap: 1vw;
+    /* background-color: #ffffff; */
+}
+.gridGalery3{
+    grid-area: galery3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 432px 216px ;
+    grid-template-areas:
+        "Foto8 Foto9"
+        "Foto7 Foto7";
+    /* margin: 12vh 10% 0% 10%; */
+    gap: 1vw;
+    /* background-color: #ffffff; */
+}
+.galery .galeryContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.foto1 {
+    grid-area: Foto1;
+}
+
+.foto2 {
+    grid-area: Foto2;
+}
+
+.foto3 {
+    grid-area: Foto3;
+}
+
+.foto4 {
+    grid-area: Foto4;
+}
+
+.foto5 {
+    grid-area: Foto5;
+}
+
+.foto6 {
+    grid-area: Foto6;
+}
+
+.foto7 {
+    grid-area: Foto7;
+}
+
+.foto8 {
+    grid-area: Foto8;
+}
+
+.foto9 {
+    grid-area: Foto9;
+}
+
+@media screen and (max-width: 1024px) {
+    .containerGalery {
+        padding: 5vw 0vh;
+    }
+
+    .containerGrid {
+        width: 90%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows: 216px ; */
+        grid-template-areas:
+            "galery1 galery1"
+            "galery2 galery3"
+        ;
+        /* margin: 12vh 10% 0% 10%; */
+        gap: 1vw;
+        /* background-color: #ffffff; */
+    }
+    .containerKlien .logoKlien {
+        height: 10vw;
+        width: 10vw;
+        background-color: rgb(50, 50, 50);
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .containerBidang {
+        background-color: #086CB6;
+        width: 100vw;
+        padding: 5vw 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerBidang .containerCard .card {
+        background-color: white;
+        padding: 10%;
+        border-radius: 30px;
+        height: 40vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerBidang .containerCard .card .iconBidang {
+        width: 20vw;
+        height: 20vw;
+        /* background-color: aqua; */
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: ; */
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .containerBidang .containerCard .card .cardText {
+        margin-bottom: 1VW;
+    }
+
+    .containerBidang .containerCard .card .deskripsiBidang {
+        font-size: 16px;
+        color: #086CB6;
+    }
+    .containerGalery {
+        padding: 5vw 0vh;
+    }
+
+    .containerGrid {
+        width: 90%;
+        height: auto;
+        display: grid;
+        /* grid-template-rows: 216px ; */
+        grid-template-areas:
+            "galery1"
+            "galery2"
+            "galery3"
+        ;
+        grid-template-columns: auto;
+        /* margin: 12vh 10% 0% 10%; */
+        gap: 1vw;
+        /* background-color: #ffffff; */
+    }
+
+    .gridGalery1 {
+        grid-area: galery1;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 216px 350px;
+        grid-template-areas:
+            "Foto1 Foto1"
+            "Foto2 Foto3";
+        gap: 1vw;
+    }
+
+    .gridGalery2 {
+        grid-area: galery2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 216px 350px;
+        grid-template-areas:
+            "Foto4 Foto4"
+            "Foto5 Foto6";
+        /* margin: 12vh 10% 0% 10%; */
+        gap: 1vw;
+        /* background-color: #ffffff; */
+    }
+    .gridGalery3{
+        grid-area: galery3;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 350px 216px ;
+        grid-template-areas:
+            "Foto8 Foto9"
+            "Foto7 Foto7";
+        /* margin: 12vh 10% 0% 10%; */
+        gap: 1vw;
+        /* background-color: #ffffff; */
+    }
+
+    .containerKlien {
+        background-color: #ffffff;
+        width: 100vw;
+        padding: 5vw 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerKlien .logoKlien {
+        height: 10vh;
+        width: 10vh;
+        background-color: rgb(50, 50, 50);
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .containerBidang {
+        background-color: #086CB6;
+        width: 100vw;
+        padding: 10vw 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerBidang .containerCard .card {
+        background-color: white;
+        padding: 10%;
+        border-radius: 30px;
+        height: 50vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerBidang .containerCard .card .iconBidang {
+        width: 25vh;
+        height: 25vh;
+        /* background-color: aqua; */
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: ; */
+    }
+}

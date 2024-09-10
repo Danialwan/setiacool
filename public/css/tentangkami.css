@@ -1,0 +1,300 @@
+.header {
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.containerDeskripsi {
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerDeskripsi .logo {
+    /* background-color: black; */
+    width: 30%;
+    height: 12vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.containerDeskripsi .deskripsi {
+    width: 50%;
+    text-align: center;
+    margin: 4vh 0;
+}
+
+.containerVisi {
+    padding: 10vh 20vh;
+    background-color: #086CB6;
+    color: white;
+}
+
+.containerMisi {
+    padding: 10vh 20vh;
+}
+
+.containerMisi .main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.containerMisi .main table tr{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.containerMisi .main .nomor {
+    background-color: #4E4E4E;
+    width: 4vh;
+    height: 4vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.containerMisi .main .misi {
+    background-color: none;
+    height: 4vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.containerTim {
+    padding: 10vh 20vh;
+    background-color: #086CB6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTim .main {
+    width: 70%;
+}
+
+.containerFotoTim {
+    padding: 10vh 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.containerFotoTim .foto {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    border: #086CB6 solid 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.containerFotoTim .main {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .containerDeskripsi {
+        padding: 5vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerDeskripsi .logo {
+        /* background-color: black; */
+        width: 60%;
+        height: 8vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .containerDeskripsi .deskripsi {
+        width: 70%;
+        text-align: center;
+        margin: 4vh 0;
+    }
+
+    .containerVisi {
+        padding: 10vh 5vh;
+        background-color: #086CB6;
+        color: white;
+    }
+
+    .containerMisi {
+        padding: 10vh 5vh;
+    }
+
+    .containerMisi .main {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .containerMisi .main .nomor {
+        background-color: #4E4E4E;
+        width: 4vh;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .containerMisi .main .misi {
+        background-color: none;
+        height: 4vh;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .containerTim {
+        padding: 10vh 5vh;
+        background-color: #086CB6;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerTim .main {
+        width: 80%;
+    }
+
+    .containerFotoTim {
+        padding: 10vh 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .containerFotoTim .foto {
+        width: 20vh;
+        height: 20vh;
+        border-radius: 50%;
+        border: #086CB6 solid 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .containerFotoTim .main {
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .containerDeskripsi {
+        padding: 5vh 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerDeskripsi .logo {
+        /* background-color: black; */
+        width: 60%;
+        height: 6vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .containerDeskripsi .deskripsi {
+        width: 80%;
+        text-align: center;
+        margin: 4vh 0;
+    }
+
+    .containerVisi {
+        padding: 10vh 5vh;
+        background-color: #086CB6;
+        color: white;
+    }
+
+    .containerMisi {
+        padding: 5vh 5vh;
+    }
+
+    .containerMisi .main {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .containerMisi .main .nomor {
+        background-color: #4E4E4E;
+        width: 4vh;
+        height: 4vh;
+        color: white;
+        font-weight: bold;
+        border-radius: 50%;
+        margin-top: auto;
+    }
+
+    .containerMisi .main .misi {
+        background-color: none;
+        height: auto;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .containerTim {
+        padding: 10vh 5vh;
+        background-color: #086CB6;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerTim .main {
+        width: 90%;
+    }
+
+    .containerFotoTim {
+        width: auto;
+        padding: 10vh 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    .containerFotoTim .foto {
+        margin-top: 2vh;
+        width: 25vh;
+        height: 25vh;
+        border-radius: 50%;
+        border: #086CB6 solid 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .containerFotoTim .main {
+        text-align: center;
+        margin-top: 3vh;
+    }
+
+}
