@@ -1,16 +1,18 @@
-.header{
+.header {
     background-color: black;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.containerBelanja{
+
+.containerBelanja {
     padding: 10vh 20vh;
     background-color: #086CB6;
     color: white;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
 }
-.wrapperBelanja{
+
+.wrapperBelanja {
     display: grid;
     grid-template-columns: 20% auto auto;
     grid-template-rows: auto auto auto;
@@ -20,7 +22,8 @@
     ;
     gap: 20px;
 }
-.wrapperBelanja .sidebar{
+
+.wrapperBelanja .sidebar {
     background-color: #086CB6;
     color: white;
     grid-area: sidebar;
@@ -28,21 +31,25 @@
     flex-direction: column;
     /* width: 50%; */
 }
-.wrapperBelanja .sidebar ul li{
+
+.wrapperBelanja .sidebar ul li {
     list-style: circle;
     margin-left: 20px;
 }
-.wrapperBelanja .sidebar ul li a:hover{
+
+.wrapperBelanja .sidebar ul li a:hover {
     color: #042845;
     font-weight: bold;
 }
-.containerSubmenu{
+
+.containerSubmenu {
     grid-area: submenu;
     padding: 5vh;
     padding-bottom: 0;
     height: fit-content;
 }
-.containerSubmenu .submenu{
+
+.containerSubmenu .submenu {
     /* background-color: #086CB6; */
     padding: 20px;
     display: flex;
@@ -55,30 +62,36 @@
     background-repeat: no-repeat;
     transition: all 1s ease;
 }
-.containerSubmenu .submenu:hover{
-    background-size: 130% ;
+
+.containerSubmenu .submenu:hover {
+    background-size: 130%;
 }
-.containerProduk{
+
+.containerProduk {
     padding: 0 5vh;
 }
-.containerProduk .image{
+
+.containerProduk .image {
     background-color: #086CB6;
     height: 30vh;
 }
+
 @media screen and (max-width: 1024px) {
-    .header{
+    .header {
         background-color: black;
         background-position: center;
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    .containerBelanja{
+
+    .containerBelanja {
         padding: 5vh 5vh;
         background-color: #086CB6;
         color: white;
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
     }
-    .wrapperBelanja{
+
+    .wrapperBelanja {
         display: grid;
         grid-template-columns: 35% auto auto;
         grid-template-rows: auto auto auto;
@@ -88,7 +101,8 @@
         ;
         gap: 10px;
     }
-    .wrapperBelanja .sidebar{
+
+    .wrapperBelanja .sidebar {
         background-color: #086CB6;
         color: white;
         grid-area: sidebar;
@@ -96,21 +110,25 @@
         flex-direction: column;
         /* width: 50%; */
     }
-    .wrapperBelanja .sidebar ul li{
+
+    .wrapperBelanja .sidebar ul li {
         list-style: circle;
         margin-left: 20px;
     }
-    .wrapperBelanja .sidebar ul li a:hover{
+
+    .wrapperBelanja .sidebar ul li a:hover {
         color: #042845;
         font-weight: bold;
     }
-    .containerSubmenu{
+
+    .containerSubmenu {
         grid-area: submenu;
         padding: 2vh;
         padding-bottom: 0;
         height: fit-content;
     }
-    .containerSubmenu .submenu{
+
+    .containerSubmenu .submenu {
         /* background-color: #086CB6; */
         padding: 20px;
         display: flex;
@@ -124,14 +142,100 @@
         background-repeat: no-repeat;
         transition: all 1s ease;
     }
-    .containerSubmenu .submenu:hover{
-        background-size: 130% ;
+
+    .containerSubmenu .submenu:hover {
+        background-size: 130%;
     }
-    .containerProduk{
+
+    .containerProduk {
         padding: 0 5vh;
     }
-    .containerProduk .image{
+
+    .containerProduk .image {
         background-color: #086CB6;
         height: 30vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        background-color: black;
+        background-position: center;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .containerBelanja {
+        padding: 5vh 5vh;
+        background-color: #086CB6;
+        color: white;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5); */
+    }
+
+    .wrapperBelanja {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "sidebar"
+            "submenu"
+            "produk"
+        ;
+        gap: 10px;
+    }
+
+    .wrapperBelanja .sidebar {
+        background-color: #086CB6;
+        color: white;
+        grid-area: sidebar;
+        display: flex;
+        flex-direction: column;
+        /* width: 50%; */
+    }
+
+    .wrapperBelanja .sidebar ul li {
+        list-style: circle;
+        margin-left: 20px;
+    }
+
+    .wrapperBelanja .sidebar ul li a:hover {
+        color: #042845;
+        font-weight: bold;
+    }
+
+    .containerSubmenu {
+        grid-area: submenu;
+        padding: 2vh;
+        padding-bottom: 0;
+        height: fit-content;
+    }
+
+    .containerSubmenu .submenu {
+        /* background-color: #086CB6; */
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        text-align: center;
+        height: 15vh;
+        color: white;
+        background-position: center;
+        background-size: 120%;
+        background-repeat: no-repeat;
+        transition: all 1s ease;
+    }
+
+    .containerSubmenu .submenu:hover {
+        background-size: 130%;
+    }
+
+    .containerProduk {
+        padding: 0 5vh;
+    }
+
+    .containerProduk .image {
+        height: 30vh;
+        width: 90vw;
+        background-color: #086CB6;
     }
 }

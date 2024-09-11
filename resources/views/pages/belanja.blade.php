@@ -80,6 +80,9 @@
                         class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                 </div>
             </form> --}}
+            <div class="mb-5 md:mb-10 xl:mb-10">
+                <b class="title text-xl">MACAM MACAM PRODUK AC</b>
+            </div>
             <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
                 <a class="submenu" href="/service/belanja/acstanding" style="background-image: url('{{ asset('images/AC_STANDING.jpg') }}')">
                     <p>AC STANDING</p>
