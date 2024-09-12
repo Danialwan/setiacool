@@ -12,10 +12,10 @@
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-5 py-5 text-center text-white block">
                     <center>
-                        <b class="text-xl md:text-2xl xl:text-2xl">First slide label</b>
+                        <b class="text-xl md:text-2xl xl:text-2xl">SOLUSI TERBAIK UNTUK MASALAH UNIT PENDINGIN ANDA!</b>
                         <p class="headerDesc hidden md:block xl:block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                            Percayakan perawatan berbagai perangkat pendingin anda kepada kami, kami siap menangani semua
+                            kasus dan merek. Layanan komprehensif untuk memastikan kelancaran fungsionalitas.
                         </p>
                     </center>
                 </div>
@@ -26,10 +26,10 @@
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-5 py-5 text-center text-white block">
                     <center>
-                        <b class="text-xl md:text-2xl xl:text-2xl">First slide label</b>
+                        <b class="text-xl md:text-2xl xl:text-2xl">CEPAT, TEPAT, BERSAHABAT, DAN BERSERTIFIKAT</b>
                         <p class="headerDesc hidden md:block xl:block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                            Menangani dengan cepat, menganalisa dengan tepat, dengan harga yang bersahabat dan ditunjang
+                            dengan teknisi yang bersertifikat
                         </p>
                     </center>
                 </div>
@@ -40,10 +40,10 @@
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-5 py-5 text-center text-white block">
                     <center>
-                        <b class="text-xl md:text-2xl xl:text-2xl">First slide label</b>
+                        <b class="text-xl md:text-2xl xl:text-2xl">CEPAT, TEPAT, BERSAHABAT, DAN BERSERTIFIKAT</b>
                         <p class="headerDesc hidden md:block xl:block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                            Menangani dengan cepat, menganalisa dengan tepat, dengan harga yang bersahabat dan ditunjang
+                            dengan teknisi yang bersertifikat
                         </p>
                     </center>
                 </div>
@@ -54,10 +54,10 @@
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-5 py-5 text-center text-white block">
                     <center>
-                        <b class="text-xl md:text-2xl xl:text-2xl">First slide label</b>
+                        <b class="text-xl md:text-2xl xl:text-2xl">CEPAT, TEPAT, BERSAHABAT, DAN BERSERTIFIKAT</b>
                         <p class="headerDesc hidden md:block xl:block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                            Menangani dengan cepat, menganalisa dengan tepat, dengan harga yang bersahabat dan ditunjang
+                            dengan teknisi yang bersertifikat
                         </p>
                     </center>
                 </div>
@@ -68,10 +68,10 @@
                     class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 <div class="absolute inset-x-[15%] bottom-5 py-5 text-center text-white block">
                     <center>
-                        <b class="text-xl md:text-2xl xl:text-2xl">First slide label</b>
+                        <b class="text-xl md:text-2xl xl:text-2xl">CEPAT, TEPAT, BERSAHABAT, DAN BERSERTIFIKAT</b>
                         <p class="headerDesc hidden md:block xl:block">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                            Menangani dengan cepat, menganalisa dengan tepat, dengan harga yang bersahabat dan ditunjang
+                            dengan teknisi yang bersertifikat
                         </p>
                     </center>
                 </div>
@@ -174,8 +174,12 @@
                     <p class="text-start self-center">PT. AICE</p>
                 </div>
                 <div class="flex align-middle gap-5">
-                    <div class="logoKlien" style="background-image: url('{{ asset('') }}')"></div>
-                    <p class="text-start self-center">PT.</p>
+                    <div class="logoKlien" style="background-image: url('{{ asset('images/logoWiji.png') }}'); background-size:80%; background-color:#62bfff;"></div>
+                    <p class="text-start self-center">CV. WIJI MAKMUR BERSAMA</p>
+                </div>
+                <div class="flex align-middle gap-5">
+                    <div class="logoKlien" style="background-image: url('{{ asset('images/iconperusahaan.png') }}')"></div>
+                    <p class="text-start self-center">PT. ERLINDA JAYA BERKAH</p>
                 </div>
             </div>
         </center>

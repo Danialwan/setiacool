@@ -9,10 +9,10 @@
         style="background-image: url('{{ asset('images/BannerBeranda.png') }}')">
         <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <center>
-                <b class="text-2xl">First slide label</b>
-                <p class="headerDesc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    laboreet dolore magna aliqua. Ut enim ad minim veniam, quis
+                <b class="text-xl md:text-2xl xl:text-2xl">PRODUK TERJAMIN ORIGINAL DAN BERKUALITAS</b>
+                <p class="headerDesc hidden md:block xl:block">
+                    Menangani dengan cepat, menganalisa dengan tepat, dengan harga yang bersahabat dan ditunjang
+                    dengan teknisi yang bersertifikat
                 </p>
             </center>
         </div>
@@ -21,9 +21,7 @@
     {{-- CONTAINER BELANJA --}}
     <div class="containerBelanja drop-shadow-xl z-10">
         <b class="text-2xl">BELANJA COOLER</b>
-        <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore
-            magna aliqua. Ut enim ad minim </p>
+        <p class="text-lg">Produk dan spare part, AC, COLD STORAGE, WATER CHILLER, DAN COOLING TOWER yang kami sediakan terjamin keaslian, dan kualitasnya</p>
     </div>
     <div class="wrapperBelanja z-0 shadow-lg P-0">
         <div class="sidebar p-10">
@@ -84,7 +82,8 @@
                 <b class="title text-xl">MACAM MACAM PRODUK AC</b>
             </div>
             <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
-                <a class="submenu" href="/service/belanja/acstanding" style="background-image: url('{{ asset('images/AC_STANDING.jpg') }}')">
+                <a class="submenu" href="/service/belanja/acstanding"
+                    style="background-image: url('{{ asset('images/AC_STANDING.jpg') }}')">
                     <p>AC STANDING</p>
                 </a>
                 <a class="submenu" href="" style="background-image: url('{{ asset('images/AC_SPLIT_WALL.jfif') }}')">

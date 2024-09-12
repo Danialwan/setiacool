@@ -23,7 +23,7 @@
 }
 
 .containerDeskripsi .deskripsi {
-    width: 50%;
+    width: 55%;
     text-align: center;
     margin: 4vh 0;
 }
@@ -62,7 +62,7 @@
 .containerMisi .main .misi {
     background-color: none;
     height: 4vh;
-    text-align: center;
+    text-align: start;
     margin-top: 10px;
 }
 
